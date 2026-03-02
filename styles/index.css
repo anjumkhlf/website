@@ -1,0 +1,23 @@
+.about-me{
+    display: flex;;
+}
+
+.about-me-info{
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-img{
+    width: 200px;
+    margin: auto;
+}
+
+@media (max-width: 767px){
+    .about-me{
+        flex-direction: column;
+    }
+
+    .about-me-info{
+        padding: 0;
+    }
+}
