@@ -19,10 +19,11 @@ ul {
 
 .nav{
     display: flex;
+    margin: auto;
 }
 
 .nav-item{
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 @media (max-width: 676px){
